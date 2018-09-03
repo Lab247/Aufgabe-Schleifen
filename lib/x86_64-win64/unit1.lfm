@@ -1,0 +1,42 @@
+object frmSchleifen: TfrmSchleifen
+  Left = 238
+  Height = 311
+  Top = 147
+  Width = 345
+  Caption = 'Schleifen Test'
+  ClientHeight = 311
+  ClientWidth = 345
+  LCLVersion = '1.6.0.4'
+  object btnRun: TButton
+    Left = 8
+    Height = 35
+    Top = 8
+    Width = 53
+    Caption = 'run'
+    OnClick = btnRunClick
+    TabOrder = 0
+  end
+  object grd1: TStringGrid
+    Left = 80
+    Height = 250
+    Top = 48
+    Width = 250
+    ColCount = 10
+    DefaultColWidth = 25
+    DefaultRowHeight = 25
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 10
+    ScrollBars = ssNone
+    TabOrder = 1
+  end
+  object btn1mal1: TButton
+    Left = 80
+    Height = 33
+    Top = 8
+    Width = 250
+    Caption = 'Das kleine 1 x 1'
+    OnClick = btn1mal1Click
+    TabOrder = 2
+  end
+end
