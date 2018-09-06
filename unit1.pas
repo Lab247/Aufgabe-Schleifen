@@ -45,9 +45,21 @@ end;
 procedure TfrmSchleifen.btn1mal1Click(Sender: TObject);
 var x, y : integer;
 begin
-     for y:=1 to 10 do
-         for x:=1 to 10 do
-             grd1.Cells[x-1, y-1]:= IntToStr(x*y);
+  y:=1;  //initiale Werte setzen
+  x:=1;
+  while y < 11 do // Zeilen von 1..10 laufen lassen
+        begin
+             while x < 11 do // Spalten von 1..10 laufen lassen
+               begin
+                    grd1.Cells[x-1, y-1]:= IntToStr(x*y); //Zelle mit Produkt füllen
+                    x:=x+1; //nächste Spalte
+               end;
+               y:=y+1; //nächste Zeile
+               x:=1; // Spalte zurücksetzen auf Anfang
+        end;
+
+//for y:=1 to 10 do
+//for x:=1 to 10 do
 end;
 
 end.

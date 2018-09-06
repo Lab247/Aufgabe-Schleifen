@@ -38,16 +38,28 @@ var i : integer;
   c : Char;
 begin
   for i:=2 to 6 do ShowMessage(IntToStr(i));
-  //for i:=5 downto 1 do ShowMessage(IntToStr(i));
-  //for c:='z' downto 'u' do ShowMessage(c);
+  for i:=5 downto 1 do ShowMessage(IntToStr(i));
+  for c:='z' downto 'u' do ShowMessage(c);
 end;
 
 procedure TfrmSchleifen.btn1mal1Click(Sender: TObject);
 var x, y : integer;
 begin
-     for y:=1 to 10 do
-         for x:=1 to 10 do
-             grd1.Cells[x-1, y-1]:= IntToStr(x*y);
+  y:=1;
+  x:=1;
+  while y < 11 do
+        begin
+             while x < 11 do
+               begin
+                    grd1.Cells[x-1, y-1]:= IntToStr(x*y);
+                    x:=x+1;
+               end;
+               y:=y+1;
+               x:=1;
+        end;
+
+//for y:=1 to 10 do
+//for x:=1 to 10 do
 end;
 
 end.

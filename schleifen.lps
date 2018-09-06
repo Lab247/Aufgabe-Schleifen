@@ -4,7 +4,7 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="2">
+    <Units Count="3">
       <Unit0>
         <Filename Value="schleifen.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -12,23 +12,33 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="23"/>
       </Unit0>
       <Unit1>
         <Filename Value="unit1.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmSchleifen"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="23"/>
-        <CursorPos X="51" Y="51"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="41"/>
+        <CursorPos X="26" Y="54"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="9266"/>
+        <CursorPos Y="9287"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit2>
     </Units>
-    <JumpHistory Count="7" HistoryIndex="6">
+    <JumpHistory Count="9" HistoryIndex="8">
       <Position1>
         <Filename Value="unit1.pas"/>
       </Position1>
@@ -56,6 +66,14 @@
         <Filename Value="unit1.pas"/>
         <Caret Line="42" Column="45" TopLine="15"/>
       </Position7>
+      <Position8>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="57" Column="15" TopLine="19"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="60" TopLine="43"/>
+      </Position9>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

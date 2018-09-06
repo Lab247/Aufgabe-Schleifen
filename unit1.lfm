@@ -1,7 +1,7 @@
 object frmSchleifen: TfrmSchleifen
-  Left = 238
+  Left = 575
   Height = 311
-  Top = 147
+  Top = 35
   Width = 345
   Caption = 'Schleifen Test'
   ClientHeight = 311
