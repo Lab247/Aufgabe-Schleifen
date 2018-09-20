@@ -1,7 +1,7 @@
 object frmSchleifen: TfrmSchleifen
-  Left = 575
+  Left = 537
   Height = 311
-  Top = 35
+  Top = 141
   Width = 345
   Caption = 'Schleifen Test'
   ClientHeight = 311
@@ -29,6 +29,7 @@ object frmSchleifen: TfrmSchleifen
     RowCount = 10
     ScrollBars = ssNone
     TabOrder = 1
+    Visible = False
   end
   object btn1mal1: TButton
     Left = 80
@@ -38,5 +39,6 @@ object frmSchleifen: TfrmSchleifen
     Caption = 'Das kleine 1 x 1'
     OnClick = btn1mal1Click
     TabOrder = 2
+    Visible = False
   end
 end
